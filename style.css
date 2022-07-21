@@ -1,0 +1,132 @@
+html,
+body {
+  height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
+}
+
+body {
+  margin: 1rem;
+  font-family: "Lato", sans-serif;
+  letter-spacing: 0.1rem;
+  text-align: center;
+  background: #782a74;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 50px;
+  border: 10px solid white;
+  background-image: linear-gradient(135deg, #667eea 0%, #a24b9e 100%);
+  box-shadow: 0 0 30px #424242;
+}
+
+h3 {
+  color: #fdfdfd;
+  font-size: 4rem;
+  font-weight: 800;
+  text-align: left;
+  margin: 10% 10% 0 10%;
+  line-height: 3.7rem;
+}
+
+hr {
+  width: 80%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 1px;
+  background-color: #cf8ccc;
+  border: none;
+}
+.secure {
+  color: #6ffaff;
+  font-weight: 900;
+}
+
+.subtitle {
+  /* font-family: "Roboto"; */
+  color: #6ffaff;
+  font-size: 2rem;
+  letter-spacing: 0;
+  margin: 8%;
+  line-height: 1.8rem;
+}
+
+.generate-btn {
+  color: white;
+  font-size: 24px;
+  padding: 1rem 3rem;
+  border: 2px solid white;
+  border-radius: 30px;
+  background: none;
+  /* background: #808fd2; */
+}
+
+.generate-btn:hover {
+  background: white;
+  color: #425eda;
+  cursor: pointer;
+}
+
+.tap {
+  color: #fdfdfd;
+}
+
+.tap-animate {
+  animation: fadeIn ease 1s;
+  -webkit-animation: fadeIn ease 1s;
+  -moz-animation: fadeIn ease 1s;
+  -o-animation: fadeIn ease 1s;
+  -ms-animation: fadeIn ease 1s;
+  -webkit-animation: ;
+}
+
+.password-btn {
+  color: white;
+  font-size: 27px;
+  padding: 1rem 2rem;
+  border: 2px solid white;
+  border-radius: 35px;
+  background: #667eea;
+}
+
+.description {
+  color: #d4e6e2;
+  margin: 2rem;
+}
+
+.description-span {
+  color: #6ffaff;
+  font-weight: bold;
+}
+
+.text-bottom {
+  /* margin-bottom: -2rem; */
+}
+
+#footer {
+  margin: 0 0 2rem 0;
+  color: #d4e6e2;
+  letter-spacing: 0.05rem;
+}
+
+.hidden {
+  display: none;
+}
+
+@media (max-width: 480px) {
+  h3 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    text-align: left;
+    margin: 10% 10% 0 10%;
+    line-height: 2.5rem;
+  }
+  .subtitle {
+    /* font-family: "Roboto"; */
+    font-size: 1.5rem;
+    margin: 8%;
+    line-height: 1.8rem;
+  }
+}
