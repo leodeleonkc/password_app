@@ -63,7 +63,7 @@ hr {
   border: 2px solid white;
   border-radius: 30px;
   background: none;
-  /* background: #808fd2; */
+    touch-action: manipulation;
 }
 
 .generate-btn:hover {
@@ -92,6 +92,8 @@ hr {
   border: 2px solid white;
   border-radius: 35px;
   background: #667eea;
+  touch-action: manipulation;
+
 }
 
 .description {
